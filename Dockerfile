@@ -8,4 +8,6 @@ RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 WORKDIR /glitch
 copy bot.py /bot.py
+
+
 CMD ["python", "bot.py"]
